@@ -5,6 +5,7 @@ import { ExternalLink, Github } from 'lucide-react'
 const projects = [
   {
     title: 'Resto Pro',
+    image: '/Resto Pro Logo.png',
     desc: 'MERN Stack restaurant management with real-time tracking.',
     tech: ['MongoDB', 'Express', 'React', 'Socket.io'],
     github: 'https://github.com/SahilKayasth-16',
@@ -12,6 +13,7 @@ const projects = [
   },
   {
     title: 'TP Nutrition',
+    image: '/TP Nutrition Logo.png',
     desc: 'E-commerce platform for nutrition and fitness.',
     tech: ['React', 'Node.js', 'Tailwind'],
     github: 'https://github.com/SahilKayasth-16',
@@ -19,6 +21,7 @@ const projects = [
   },
   {
     title: 'Safe Track',
+    image: '/Safe Track Logo.png',
     desc: 'Women safety application with emergency alerts.',
     tech: ['PHP', 'MySQL', 'JavaScript'],
     github: 'https://github.com/SahilKayasth-16/SafeTrack_website',
@@ -49,11 +52,13 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="group relative"
             >
-              <div className="relative aspect-video rounded-[2rem] overflow-hidden mb-6 bg-dark-100 border border-white border-opacity-10 transition-all group-hover:border-primary">
+              <div className="relative aspect-video rounded-[2rem] overflow-hidden mb-6 bg-dark-100 border border-white border-opacity-10 transition-all group-hover:border-primary flex items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary opacity-0 group-hover:opacity-20 transition-all"></div>
-                <div className="w-full h-full flex items-center justify-center text-4xl font-bold opacity-10 group-hover:opacity-40 transition-all">
-                  {project.title}
-                </div>
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-full object-contain p-12 transition-all duration-500 group-hover:scale-110"
+                />
               </div>
 
               <div className="flex justify-between items-start mb-4">
