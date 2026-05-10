@@ -28,8 +28,9 @@ export const Contact = () => {
         setFormData({ name: '', email: '', phone: '', message: '' })
       }
     } catch (err) {
-      toast.error("Failed to send message. Please try again later.")
-      console.error(err)
+      const errorMessage = err.response?.data?.details || err.response?.data?.error || "Failed to send message. Please try again later.";
+      toast.error(errorMessage)
+      console.error('Submission error:', err)
     } finally {
       setIsSubmitting(false)
     }
