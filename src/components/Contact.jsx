@@ -21,7 +21,8 @@ export const Contact = () => {
     e.preventDefault()
     setIsSubmitting(true)
     try {
-      const response = await axios.post('/api/contact', formData)
+      const API_URL = import.meta.env.VITE_API_URL || '';
+      const response = await axios.post(`${API_URL}/api/contact`, formData)
       if (response.status === 200) {
         toast.success("Message sent! I'll get back to you soon.")
         setFormData({ name: '', email: '', phone: '', message: '' })
