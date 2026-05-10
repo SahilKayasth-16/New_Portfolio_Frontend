@@ -7,7 +7,7 @@ const projects = [
     title: 'Resto Pro',
     image: '/Resto Pro Logo.png',
     desc: 'MERN Stack restaurant management with real-time tracking.',
-    tech: ['MongoDB', 'Express', 'React', 'Socket.io'],
+    tech: ['MongoDB', 'Express', 'React', 'Node', 'Socket.io'],
     github: 'https://github.com/SahilKayasth-16',
     live: 'https://restopro-frontend.vercel.app/'
   },
@@ -15,7 +15,7 @@ const projects = [
     title: 'TP Nutrition',
     image: '/TP Nutrition Logo.png',
     desc: 'E-commerce platform for nutrition and fitness.',
-    tech: ['React', 'Node.js', 'Tailwind'],
+    tech: ['MongoDB', 'Express', 'React', 'Node'],
     github: 'https://github.com/SahilKayasth-16',
     live: 'https://www.tpnutrition.in/'
   },
@@ -23,7 +23,7 @@ const projects = [
     title: 'Safe Track',
     image: '/Safe Track Logo.png',
     desc: 'Women safety application with emergency alerts.',
-    tech: ['PHP', 'MySQL', 'JavaScript'],
+    tech: ['HTML', 'CSS', 'JAVASCRIPT', 'PHP'],
     github: 'https://github.com/SahilKayasth-16/SafeTrack_website',
     live: 'https://github.com/SahilKayasth-16/SafeTrack_website'
   }
