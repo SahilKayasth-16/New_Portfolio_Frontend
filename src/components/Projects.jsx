@@ -35,12 +35,8 @@ export const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
-            <h2 className="text-primary font-bold tracking-[0.2em] mb-4 uppercase">Selected Work</h2>
-            <h3 className="text-4xl md:text-6xl font-black">Featured Projects</h3>
+            <h2 className="text-4xl md:text-6xl font-black">Featured Projects</h2>
           </div>
-          <button className="px-8 py-4 glass rounded-xl font-bold hover:bg-white hover:text-dark-300 transition-all">
-            VIEW ALL GITHUB
-          </button>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
