@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Award, BookOpen, Heart } from 'lucide-react'
+import { Award, BookOpen, Heart, Download } from 'lucide-react'
 
 export const About = () => {
   return (
@@ -33,9 +33,9 @@ export const About = () => {
               I am a detail-oriented Computer Science Engineering student with a knack for full-stack development. My journey is fueled by a relentless pursuit of "Focus, Plan, Work, Repeat" — a philosophy that ensures every project I touch is built with precision and care.
             </p>
 
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-6 mb-10">
               {[
-                { icon: Award, label: '7.93 CGPA', sub: 'B.E. Computer Science' },
+                { icon: Award, label: '8.23 CGPA', sub: 'B.E. Computer Science' },
                 { icon: BookOpen, label: '3+ Projects', sub: 'Deployed & Working' },
                 { icon: Heart, label: 'Disciplined', sub: 'Growth Mindset' },
                 { icon: Award, label: 'Certificates', sub: 'MERN Stack Expert' }
@@ -51,6 +51,14 @@ export const About = () => {
                 </div>
               ))}
             </div>
+            
+            <a
+              href="/Sahil Bharatkumar Kayasth Resume.pdf"
+              download
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-dark-300 rounded-xl font-bold uppercase tracking-wider hover:bg-opacity-90 transition-all transform hover:-translate-y-1"
+            >
+              <Download size={20} /> Download Resume
+            </a>
           </div>
         </div>
       </div>

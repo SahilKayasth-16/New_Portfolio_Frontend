@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const experience = [
   {
     role: 'MERN Stack Developer Intern',
-    company: 'BISAG-N',
+    company: 'Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N)',
     period: 'Jan 2026 – Apr 2026',
     desc: 'Developed a GIS-based web platform for urban planning using React and FastAPI.'
   },
