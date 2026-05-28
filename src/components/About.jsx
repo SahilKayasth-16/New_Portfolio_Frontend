@@ -52,13 +52,6 @@ export const About = () => {
               ))}
             </div>
             
-            <a
-              href="/Sahil Bharatkumar Kayasth Resume.pdf"
-              download
-              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-dark-300 rounded-xl font-bold uppercase tracking-wider hover:bg-opacity-90 transition-all transform hover:-translate-y-1"
-            >
-              <Download size={20} /> Download Resume
-            </a>
           </div>
         </div>
       </div>
