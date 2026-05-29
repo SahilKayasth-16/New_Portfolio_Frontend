@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'TP Nutrition',
     image: '/TP Nutrition Logo.png',
-    desc: 'E-commerce platform for nutrition and fitness.',
+    desc: 'A fitness trainer portfolio website showcasing transformations & with consultation form attached to it.',
     tech: ['MongoDB', 'Express', 'React', 'Node'],
     github: 'https://github.com/SahilKayasth-16',
     live: 'https://www.tpnutrition.in/'
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Safe Track',
     image: '/Safe Track Logo.png',
-    desc: 'Women safety application with emergency alerts.',
+    desc: 'A static woman safety website to support & promote the "SafeTrack" application',
     tech: ['HTML', 'CSS', 'JAVASCRIPT', 'PHP'],
     github: 'https://github.com/SahilKayasth-16/SafeTrack_website',
     live: 'https://github.com/SahilKayasth-16/SafeTrack_website'
