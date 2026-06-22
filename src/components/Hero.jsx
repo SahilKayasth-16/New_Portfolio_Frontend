@@ -56,9 +56,9 @@ export const Hero = () => {
             <motion.div
               animate={{ y: [0, -20, 0] }}
               transition={{ repeat: Infinity, duration: 4 }}
-              className="absolute top-10 right-10 w-24 h-24 glass rounded-2xl z-20 flex items-center justify-center shadow-2xl"
+              className="absolute top-4 right-4 w-16 h-16 sm:top-6 sm:right-6 sm:w-20 sm:h-20 lg:top-10 lg:right-10 lg:w-24 lg:h-24 glass rounded-2xl z-20 flex items-center justify-center shadow-2xl"
             >
-              <span className="text-4xl">🚀</span>
+              <span className="text-2xl sm:text-3xl lg:text-4xl">🚀</span>
             </motion.div>
             <motion.div
               animate={{ y: [0, 20, 0] }}

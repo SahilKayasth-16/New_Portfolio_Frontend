@@ -50,9 +50,9 @@ export const Projects = () => {
             >
               <div className="relative aspect-video rounded-[2rem] overflow-hidden mb-6 bg-dark-100 border border-white border-opacity-10 transition-all group-hover:border-primary flex items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary opacity-0 group-hover:opacity-20 transition-all"></div>
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-full object-contain p-12 transition-all duration-500 group-hover:scale-110"
                 />
               </div>
