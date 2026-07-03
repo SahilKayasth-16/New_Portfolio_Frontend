@@ -28,7 +28,7 @@ export const Hero = () => {
           <div className="flex flex-wrap gap-4">
 
             <a
-              href="/Sahil Bharatkumar Kayasth Resume.pdf"
+              href="/Sahil%20Bharatkumar%20Kayasth%20Resume.pdf"
               download
               className="flex items-center gap-2 px-8 py-4 border border-white border-opacity-20 rounded-xl font-bold uppercase tracking-wider hover:bg-white hover:text-dark-300 transition-all transform hover:-translate-y-1"
             >

@@ -44,7 +44,7 @@ export const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <a
-            href="/Sahil Bharatkumar Kayasth Resume.pdf"
+            href="/Sahil%20Bharatkumar%20Kayasth%20Resume.pdf"
             download
             className="hidden sm:block px-6 py-2 bg-primary text-dark-300 rounded-full font-bold text-sm hover:bg-primary-dark transition-all transform hover:scale-105"
           >
@@ -82,7 +82,7 @@ export const Navbar = () => {
                 </a>
               ))}
               <a
-                href="/Sahil Bharatkumar Kayasth Resume.pdf"
+                href="/Sahil%20Bharatkumar%20Kayasth%20Resume.pdf"
                 download
                 className="px-8 py-3 bg-primary text-dark-300 rounded-full font-bold text-sm"
               >
