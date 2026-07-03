@@ -3,7 +3,13 @@ import { motion } from 'framer-motion'
 
 const experience = [
   {
-    role: 'MERN Stack Developer Intern',
+    role: 'Web Developer Intern (Virtual)',
+    company: 'Syntecxhub',
+    period: 'Jun 2026 - Jul 2026',
+    desc: 'Work on several individual projects such as Notes App, User Management System, Employee Management System and Real-time Chat Application developed using MERN Stack & Socket.io.'
+  },
+  {
+    role: 'Full Stack Developer Intern',
     company: 'Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N)',
     period: 'Jan 2026 – Apr 2026',
     desc: 'Developed a GIS-based web platform for urban planning using React and FastAPI.'
@@ -11,7 +17,7 @@ const experience = [
   {
     role: 'Web Developer Intern',
     company: 'Future Way Institute of Multimedia',
-    period: 'July 2025 – July 2025',
+    period: 'Jul 2025 – Jul 2025',
     desc: 'Engineered a role-based access control system using Laravel for four distinct user types.'
   }
 ]
