@@ -12,7 +12,7 @@ const experience = [
     role: 'Full Stack Developer Intern',
     company: 'Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N)',
     period: 'Jan 2026 – Apr 2026',
-    desc: 'Developed a GIS-based web platform for urban planning using React and FastAPI.'
+    desc: 'Developed a web based platform for urban planning with utility managment integrated with AI Chatbot to support business related queries by providing data driven solutions using React(Vite), Python & FastAPI, PostgreSQL with Post GIS extension and Ollama Phi-3 model.'
   },
   {
     role: 'Web Developer Intern',
