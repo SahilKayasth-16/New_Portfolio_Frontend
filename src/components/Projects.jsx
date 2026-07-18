@@ -7,7 +7,7 @@ const projects = [
     title: 'Resto Pro',
     image: '/Resto Pro Logo.png',
     desc: 'MERN Stack restaurant management with real-time tracking.',
-    tech: ['MongoDB', 'Express', 'React', 'Node', 'Socket.io'],
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Socket.io'],
     github: 'https://github.com/SahilKayasth-16',
     live: 'https://restopro-frontend.vercel.app/'
   },
@@ -15,17 +15,17 @@ const projects = [
     title: 'TP Nutrition',
     image: '/TP Nutrition Logo.png',
     desc: 'A fitness trainer portfolio website showcasing transformations & with consultation form attached to it.',
-    tech: ['MongoDB', 'Express', 'React', 'Node'],
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
     github: 'https://github.com/SahilKayasth-16',
     live: 'https://www.tpnutrition.in/'
   },
   {
-    title: 'Safe Track',
-    image: '/Safe Track Logo.png',
-    desc: 'A static woman safety website to support & promote the "SafeTrack" application',
-    tech: ['HTML', 'CSS', 'JAVASCRIPT', 'PHP'],
-    github: 'https://github.com/SahilKayasth-16/SafeTrack_website',
-    live: 'https://github.com/SahilKayasth-16/SafeTrack_website'
+    title: 'AI Code Review Assistant',
+    image: '/AI Code Review Assistant Logo.png',
+    desc: 'A AI integrated platform for freshers and new learners to review their code & improve with the help of AI driven suggestions.',
+    tech: ['PostgreSQL','Express.js', 'React.js', 'Node.js', 'Groq'],
+    github: 'https://github.com/SahilKayasth-16/AI-Code-Review-Assistant',
+    live: 'https://ai-assistant-for-code.vercel.app/'
   }
 ]
 
