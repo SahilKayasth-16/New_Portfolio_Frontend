@@ -30,13 +30,17 @@ export const About = () => {
             <h2 className="text-primary font-bold tracking-[0.2em] mb-4 uppercase">My Story</h2>
             <h3 className="text-4xl md:text-6xl font-black mb-8">Engineering with Passion</h3>
             <p className="text-gray-400 text-lg leading-relaxed mb-10">
-              I am a detail-oriented Computer Science Engineering student with a knack for full-stack development. My journey is fueled by a relentless pursuit of "Focus, Plan, Work, Repeat" — a philosophy that ensures every project I touch is built with precision and care.
+              Computer Science Engineering graduate with hands-on experience in Full-Stack Development using the 
+              MERN Stack, FastAPI, and modern backend technologies. Skilled in designing scalable web 
+              applications, secure REST APIs, role-based authentication systems, and real-time applications. 
+              Passionate about solving real-world problems through clean, efficient, and 
+              maintainable software while continuously learning modern technologies and system design. 
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-10">
               {[
                 { icon: Award, label: '8.23 CGPA', sub: 'B.E. Computer Science' },
-                { icon: BookOpen, label: '3+ Projects', sub: 'Deployed & Working' },
+                { icon: BookOpen, label: '4 Projects', sub: 'Deployed & Working' },
                 { icon: Heart, label: 'Disciplined', sub: 'Growth Mindset' },
                 { icon: Award, label: 'Certificates', sub: 'MERN Stack Expert' }
               ].map((item, i) => (
